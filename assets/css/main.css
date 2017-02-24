@@ -29,13 +29,18 @@ header {
 }
 
 div {
-  display: inline-block;
+  display: block;
   background-color: rgba(255, 255, 255, .4);
   margin: 1em;
   padding: 1em;
   border: .1em;
   border-style: solid;
   border-color: black;
+  text-align: center;
+}
+
+img {
+  margin-top: 2em;
 }
 
 footer {
@@ -85,8 +90,9 @@ a {
 
 .main-container {
   display: inline-block;
-  /*background-image: url("http://i.imgur.com/Uc2BYVB.jpg"); */
-
+  width: 100%;
+  margin: 10em auto;
+  position: relative;
 }
 
 .personal-info .about-me {
@@ -113,6 +119,10 @@ a {
 #important-font {
   color: white;
   font-size: 30px;
+  letter-spacing: 0.1em;
+  text-shadow: 1em;
+  margin: .5em 0 .5em 0;
+
 
 }
 
@@ -120,6 +130,8 @@ a {
 color: black;
 text-decoration: underline;
 text-decoration-color: white;
+letter-spacing: 0.15em;
+
 }
 
 /*
