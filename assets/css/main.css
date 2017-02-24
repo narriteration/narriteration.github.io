@@ -1,84 +1,13 @@
-/* custom styles */
-
-/* BELOW IS A COPY/PASTED CSS RESET THAT WIPES OUT DEFAULT FUNCTIONS TO MAXIMIZE CROSS-BROWSER COMPATIBILITY
-
-http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-
-/*
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html {
+  background: url(http://i.imgur.com/Uc2BYVB.jpg) no-repeat center center fixed;
+  webkit-background-size: cover;
+  moz-background-size: cover;
+  o-background-size: cover;
+  background-size: cover;
 }
-HTML5 display-role reset for older browsers
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-*/
-
-
-/*
-<><><><><><><><><><><><><><><><>
-<><><><><><><><><><><><><><><><>
-<><><><><><><><><><><><><><><><>
-<><><><><><><><><><><><><><><><>
-BELOW IS MY OWN CODE
-<><><><><><><><><><><><><><><><>
-<><><><><><><><><><><><><><><><>
-<><><><><><><><><><><><><><><><>
-
-CSS SELECTOR CHEATSHEET:
-
-element {};
-#id {};
-.class{};
-.attribute{};
-
-
-*/
-
 
 body {
-  margin: 10em;
+  margin: 0;
 	padding: 0;
 	border: 0;
   border-style: solid;
@@ -86,163 +15,111 @@ body {
   border: 5em 5em 5em 5em;
 	font-size: 100%;
 	font: helvetica;
-  font-size: 16px;
   font-weight: 300;
 	vertical-align: baseline;
+  display: block;
+  position: static;
+}
 
-  /*
-  color: grey;
-  background: grey;
-  background-image: url("https://www.for.gov.bc.ca/HRA/Plants/biocontrol/images/plants/CanadaThistle_closeup_flowers.jpg");
-  */
-
-  height: 200px;
-  background-image: url("https://www.for.gov.bc.ca/HRA/Plants/biocontrol/images/plants/CanadaThistle_closeup_flowers.jpg");
-  background-size: cover;
-  border: 2px solid darkgray;
-
-};
+header {
+  display: block;
+  border: ;
+  padding: ;
+  margin: ;
+}
 
 div {
   display: inline-block;
+  background-color: rgba(255, 255, 255, .4);
   margin: 1em;
   padding: 1em;
-  border: 2;
-
-};
-
-nav {
-  color: inherit;
-  background: orange;
-  text-align: center;
-};
+  border: .1em;
+  border-style: solid;
+  border-color: black;
+}
 
 footer {
-    background: grey;
-};
-
-ul ol li{
-    color: red;
-};
-
-a {
-  color: red;
-  text-decoration: none;
-};
-
-img {
-  height: 36;
-  width: auto;
-};
-
-
-
-.my-big-whole-everything {
-
-};
-
-.navigation-bar {
-    text-align: center;
-};
-
-div.main-container {
-    background-color: light-grey;
-    background-image: url("https://www.for.gov.bc.ca/HRA/Plants/biocontrol/images/plants/CanadaThistle_closeup_flowers.jpg");
-
-    border-style: solid;
-    border-color: black;
-    border: 5em 5em 5em 5em;
-};
-
-.personal-info {
-
-};
-
-.name {
-
-};
-
-.tagline-about-me {
-
-};
-
-
-
-
-/*
-
-OLD CSS FROM FIRST ATTEMPT:
-
-body {
-  background: #fff8f7;
-
-  content: 2em;
-  padding: 2em;
-  border: 2em;
-  margin: 2em;
-
-  border-style: solid;
-  border-color: #494742;
-
-  color: #494742;
-  font: helvetica;
-  font-size: 14px;
-  font-weight: lighter;
-  font-family: sans-serif;
-  text-align: center;
-  text-decoration: none;
-
-
-  border-style: solid;
-  border-color: #494742;
-  border: 12px 12px 12px 12px;
-
-  display: block;
-  position: static;
-
-}
-
-div {
-  content: 12px;
-  padding: 24px;
-  border: 12px;
-  margin: 72px;
-}
-
-.blocks {
-  background: #ffeece;
-  content: 50px;
-  padding: 20px;
-  border-style: solid;
-  border-radius: 55px;
-  border: 4px 4px 4px 4px;
-  border-color: #605d57;
-  text-align: inherit;
-  text-decoration: inherit;
-}
-
-h1 {
-  color: #e02e16;
+    background: rgba(255, 255, 255, 0.1);
+    padding: .5em;
+    border: .1em;
+    margin: 0;
 }
 
 ul {
   display: inline-block;
-  content: 24px;
-  padding: 72px;
-  border: 12px;
-  margin: 72px;
+  text-align: center;
+  padding: 0em;
+  border: 1em;
+  margin: 0px;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  list-style: none;
 }
 
-img {
+li {
+  background-color: #e0c0c7;
   border-style: solid;
-  border-color: #494742;
-  border: 12px 12px 12px 12px;
+  border-color: white;
+  border: 0 0 .5em 0;
+  display: inline-block;
+  margin: inherit 10em inherit 10em;
 }
 
-div.interactive-buttons {
-background-color: red;
-margin: 12px;
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
+
+
+
+
+.navigation-bar {
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  display: block;
+}
+
+
+.main-container {
+  display: inline-block;
+  /*background-image: url("http://i.imgur.com/Uc2BYVB.jpg"); */
+
+}
+
+.personal-info .about-me {
+  margin: 0 0 0 0;
+  text-align: center;
+  text-transform: none;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.blocks {
+  background: #ffeece;
+  padding: 20px;
+  margin: 10px 0 10px 0;
+  border-style: solid;
+  border-radius: 55px;
+  border: 4px 4px 4px 4px;
+  border-color: #605d57;
+  text-align: center;
+  text-decoration: inherit;
+}
+
+
+#important-font {
+  color: white;
+  font-size: 30px;
+
+}
+
+#repo-link {
+color: black;
+text-decoration: underline;
+text-decoration-color: white;
 }
 
 /*
