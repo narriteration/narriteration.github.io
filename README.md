@@ -1,6 +1,6 @@
 # Project Name
 
-This is my personal website. It contains all my relevant professional and personal information I'd like to highlight for my job search as a web developer.
+My personal website is currently under construction. Please email me at narriteration@gmail.com or tweet me @narriteration.  
 
 ## Usage
 
