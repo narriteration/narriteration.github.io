@@ -50,18 +50,6 @@ header, hgroup, menu, nav, section, summary, time, mark, audio, video
   padding-top: 2em;
 }
 
-.blocks {
-  background: #ffeece;
-  padding: 20px;
-  margin: 10px 0 10px 0;
-  border-style: solid;
-  border-radius: 55px;
-  border: 4px 4px 4px 4px;
-  border-color: #605d57;
-  text-align: center;
-  text-decoration: inherit;
-}
-
 html {
   /*background: url(http://i.imgur.com/Uc2BYVB.jpg) no-repeat center center fixed;*/
   webkit-background-size: cover;

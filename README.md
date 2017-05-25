@@ -4,7 +4,7 @@ My personal website is currently under construction. Please email me at narriter
 
 ## Usage
 
-There are no special usage instructions for my [personal website](narriteration.github.io) at this time. Have fun!
+There are no special usage instructions for my [personal website](https://narriteration.github.io/) at this time. Have fun!
 
 ## Credits
 
