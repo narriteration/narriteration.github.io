@@ -18,6 +18,22 @@ header, hgroup, menu, nav, section, summary, time, mark, audio, video
   width: auto\9; /* ie8 */
 }
 
+#list-not-pink {
+  margin: 0em;
+  border-radius: 0em;
+  background-color: #ffffff;
+  padding: .5em .6em;
+  color: #ffffff;
+}
+
+#raleway-italic {
+  font-style: italic;
+}
+
+#temp-nav:hover {
+  color: #ff59f9;
+}
+
 
 .main-container {
   display: block;
@@ -49,6 +65,25 @@ header, hgroup, menu, nav, section, summary, time, mark, audio, video
   font-weight: 100;
   padding-top: 2em;
 }
+
+.fa-code-fork, .fa-mouse-pointer {
+  padding-left: 5px;
+}
+
+.project {
+  border: .1em solid black;
+  margin-bottom: 5em;
+}
+
+.project h4 {
+  font-size: 2em;
+}
+
+.greeting-projects-page {
+  padding-top: 3em;
+  padding-bottom: 5em;
+}
+
 
 html {
   /*background: url(http://i.imgur.com/Uc2BYVB.jpg) no-repeat center center fixed;*/
@@ -112,7 +147,7 @@ li {
   border: 0 0 .5em 0;
   display: inline-block;
   margin: inherit 10em inherit 10em;
-  padding: .5em;
+  padding: 1em;
 }
 
 a {
