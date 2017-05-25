@@ -7,10 +7,17 @@ header, hgroup, menu, nav, section, summary, time, mark, audio, video
 
 
 #waving-hello {
-  height: 75%;
   padding: 0em;
-  margin: 0em;
+  margin-left: 0em auto;
+  position: relative;
 }
+
+#waving-hello img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
 
 .main-container {
   display: block;
@@ -24,7 +31,8 @@ header, hgroup, menu, nav, section, summary, time, mark, audio, video
 }
 
 .greeting li {
-  border-radius: 1000em;
+  border-radius: 100000em;
+  margin: .5em;
 }
 
 .header-name {
@@ -116,11 +124,12 @@ li {
   border: 0 0 .5em 0;
   display: inline-block;
   margin: inherit 10em inherit 10em;
-  padding: .3em .8em .3em .8em;
+  padding: .5em;
 }
 
 a {
   text-decoration: none;
+  color: #000000;
 }
 
 a:hover{
