@@ -1,3 +1,59 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup,
+ var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer,
+header, hgroup, menu, nav, section, summary, time, mark, audio, video
+ { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+
+#waving-hello {
+  height: 75%;
+  padding: 0em;
+  margin: 0em;
+}
+
+.main-container {
+  display: block;
+  width: 75%;
+  margin: auto auto;
+  position: relative;
+}
+
+.greeting {
+  text-align: center;
+}
+
+.greeting li {
+  border-radius: 1000em;
+}
+
+.header-name {
+  font-size: 100%;
+  font-weight: 500;
+}
+
+.header-name h1 {
+  font-size: 4em;
+  font-family: 'Reenie Beanie', cursive;
+}
+
+.header-name h4 {
+  font-weight: 100;
+  padding-top: 2em;
+}
+
+.blocks {
+  background: #ffeece;
+  padding: 20px;
+  margin: 10px 0 10px 0;
+  border-style: solid;
+  border-radius: 55px;
+  border: 4px 4px 4px 4px;
+  border-color: #605d57;
+  text-align: center;
+  text-decoration: inherit;
+}
+
 html {
   /*background: url(http://i.imgur.com/Uc2BYVB.jpg) no-repeat center center fixed;*/
   webkit-background-size: cover;
@@ -10,11 +66,8 @@ body {
   margin: 0;
 	padding: 0;
 	border: 0;
-  border-style: solid;
-  border-color: white;
-  border: 5em 5em 5em 5em;
 	font-size: 100%;
-	font: helvetica;
+	font-family: 'Raleway', sans-serif;
   font-weight: 300;
 	vertical-align: baseline;
   display: block;
@@ -23,7 +76,7 @@ body {
 
 header {
   display: block;
-  border: ;
+  border-bottom: .1em solid black;
   padding: ;
   margin: ;
 }
@@ -33,14 +86,7 @@ div {
   background-color: rgba(255, 255, 255, .4);
   margin: 1em;
   padding: 1em;
-  border: .1em;
-  border-style: solid;
-  border-color: black;
   text-align: center;
-}
-
-img {
-  margin-top: 2em;
 }
 
 footer {
@@ -64,72 +110,20 @@ ul {
 }
 
 li {
-  background-color: #e0c0c7;
+  background-color: #ff59f9;
   border-style: solid;
   border-color: white;
   border: 0 0 .5em 0;
   display: inline-block;
   margin: inherit 10em inherit 10em;
+  padding: .3em .8em .3em .8em;
 }
 
 a {
   text-decoration: none;
-  color: inherit;
 }
 
-.main-container {
-  display: block;
-  width: 75%;
-  margin: 10em auto;
-  position: relative;
+a:hover{
+  text-decoration: none;
+  color: #ffffff;
 }
-
-.construction {
-  text-align: center;
-}
-
-.navigation-bar {
-  background-color: rgba(255, 255, 255, 0.1);
-  text-align: center;
-  display: block;
-}
-
-.personal-info .about-me {
-  margin: 0 0 0 0;
-  text-align: center;
-  text-transform: none;
-  display: block;
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.blocks {
-  background: #ffeece;
-  padding: 20px;
-  margin: 10px 0 10px 0;
-  border-style: solid;
-  border-radius: 55px;
-  border: 4px 4px 4px 4px;
-  border-color: #605d57;
-  text-align: center;
-  text-decoration: inherit;
-}
-
-
-#important-font {
-  color: black;
-  font-size: 30px;
-  letter-spacing: 0.1em;
-  margin: .5em 0 .5em 0;
-
-
-}
-
-#repo-link {
-color: black;
-text-decoration: underline;
-text-decoration-color: white;
-letter-spacing: 0.15em;
-
-}
-
-/*
