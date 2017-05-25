@@ -1,6 +1,6 @@
 # Project Name
 
-My personal website is currently under construction. Please email me at narriteration@gmail.com or tweet me @narriteration.  
+My personal website is currently under construction. Please email me at narriteration@gmail.com or tweet me [@narriteration](www.twitter.com/narriteration).  
 
 ## Usage
 
