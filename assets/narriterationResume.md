@@ -1,47 +1,49 @@
-### Chelsea Mangold  
-Oakland, CA  
-chelseamangold@gmail.com  
-530 906 5354
+## Chelsea Mangold | Full Stack Web Developer  
+530 906 5354  
+chelsea.mangold@gmail.com  
+[GitHub](github.com/narriteration)  
+[LinkedIn](linkedin.com/in/chelseamangold)  
+[Twitter](https://twitter.com/narriteration)  
 
-**University of California, Santa Barbara**  
- _BA, Feminist Studies_    
- _BA, International Relations_  
+---
 
-* 4 combined years nonprofit experience, 
-* 1 year supporting startup C-levels
-* 1.5 years basic administration and use of Wordpress and Drupal sites
-* 2 years self-taught administration and use of CRM tools: Salesforce, Jobscore, Jobvite
-* Bilingual: English, Spanish
+* Languages: `JavaScript ES5 + ES6`, `Ruby`, `HTML`, `CSS3`, `English`, `Spanish`
+* Frameworks: `NodeJS`, `Ruby on Rails`, `React`, `Angular`
+* Databases: SQL and NoSQL: `MongoDB`, `Postgres`, `Firebase`
+* Other: `jQuery`, `Bootstrap`, `Materialize`, `Skeleton`, `Git`, `GitHub`, `RESTful web services`, `debugging in the browser`, `Rspec unit testing`, `MVC architectures`, `UX design`
+* Creative Tools: Adobe `Photoshop`, `InDesign`, `Draw`; `Sketch`; `Paper for iOS`
 
-#### Web Development Student
-[General Assembly](http://www.generalassemb.ly)
-San Francisco, CA  
-_2017-present_  
->Languages: HTML, CSS, JavaScript, Ruby, Python // Libraries: jQuery // Frameworks: #
+---
 
-#### Youth Bike Educator  
-[YMCA YBike](http://www.ymcasf.org/programs/ybike-presidio)  
-San Francisco, CA  
-_2015 - present_  
->Work with SFUSD public middle- and high-schools to co-organize and deliver after-school bike riding clubs. Co-develop, -organize, and -deliver program pilots: monthly Girls and Femmes Riding Club, and an Earn-A-Bike shop program.
+### Project Experience  
 
-#### Data and Evaluation Associate     
-Americorps VISTA  
-[Prospera Cooperatives](http://prosperacoops.org/)  
-Oakland, CA  
-_2014 - 15_  
->Support recent adoption of new Salesforce implementation: gather staff feedback, resolve minor backend issues, project manage database redesign. Create graphic and web content for social media and website with development and communications teams. Co-create evaluation and learning strategy + tools with leadership team. Implement, maintain, document suite of technical solutions and trainings. Design and create suite of new internal process, data-collection, and communication tools for existing programs.
+#### [Hivemind](https://sleepy-shore-29580.herokuapp.com/): A mental health and communication app using Twilio to send SMS messages  
+I designed wireframes, user stories + database models. I also used the twilio-ruby gem to enable users to text contacts from the app, bcrypt for authentication + authorization, and the Skeleton FE library.  
+**Front end:** `Skeleton`, `Ruby` | **Back end:** `Ruby on Rails`, `Twilio SMS`  
 
-#### Hiring Coordinator, Executive Assistant  
-[Piston Cloud Computing](https://www.crunchbase.com/organization/piston-cloud-computing#/entity)  
-San Francisco, CA  
-_2013 - 14_  
->Support 60% team growth over 12 months. Research best-practices in building diverse hiring and retention strategies and advocate for adopting internal processes to support these company practices. Manage calendars and expenses, coordinate travel for C-levels, and support planning and execution of company presence in international conferences.
+#### [Amplify Amplify](https://github.com/thelmaboamah/amplify-widget): Winning widget for Ctrl-Alt-Del Hate Hackathon, Apr. 2017  
+Created web widget that was awarded 1st place in a social justice hackathon in collaboration with other General Assembly graduates. I configured our database using Firebase and defined the preliminary data structure for our product.  
+**Front end:** `Bootstrap` | **Back end:** `Firebase`  
 
-#### Development Intern  
-[FRIDA: The Young Feminist Fund](http://youngfeministfund.org/)  
-_2014_
+#### [Wayfarer](https://github.com/carlogropif/wayfarer_app): A travel-blogging app  
+I set up our HTTP client using Axios; designed and built many of the app’s views using React Component rendering; and created the schemas, log-in, and sign-up forms.  
+**Front end:** `Javascript`, `jQuery`, `React`, `Materialize`	| **Back end:** `NodeJS`, `MongoDB`  
 
-#### Editorial  Intern  
-[Aunt Lute Books](http://auntlute.com/)  
-_2012-13_
+---
+
+### Work Experience  
+
+#### Data + Evaluation Associate  *Prospera Community Development*  *2014-15*  
+* Served as internal Salesforce (NPSP) system admin + point of contact for 3rd party contractors.  
+* Created and maintained program evaluation tools and templates, and technical documentation.  
+
+#### Executive Assistant + Hiring Coordinator  *Piston Cloud Computing*  *2013-14*  
+* Managed 12+ external recruiting agencies and 100+ weekly applicants directly, doubling our team size in one year.  
+* Implemented diversity strategy, resulting in a 30% increase of female engineers.  
+
+---
+
+### Education  
+
+**Web Development Career Accelerator**          *General Assembly, San Francisco*  
+**BA, Feminist Studies; BA, International Relations**          *University of California, Santa Barbara*
