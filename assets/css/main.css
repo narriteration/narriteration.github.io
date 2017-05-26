@@ -79,6 +79,7 @@ header, hgroup, menu, nav, section, summary, time, mark, audio, video
 
 .link-plain-pink:hover {
   color: #ff59f9;
+  border-bottom: #ff59f9 solid .1em;
 }
 
 
