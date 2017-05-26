@@ -22,10 +22,6 @@ header, hgroup, menu, nav, section, summary, time, mark, audio, video
   font-style: italic;
 }
 
-#temp-nav:hover {
-  color: #ff59f9;
-}
-
 
 .main-container {
   display: block;
@@ -74,6 +70,15 @@ header, hgroup, menu, nav, section, summary, time, mark, audio, video
 .greeting-projects-page {
   padding-top: 3em;
   padding-bottom: 5em;
+}
+
+.about-text {
+  line-height: 1.5em;
+  margin: 2em 0em;
+}
+
+.link-plain-pink:hover {
+  color: #ff59f9;
 }
 
 
