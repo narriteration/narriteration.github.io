@@ -8,4 +8,4 @@ There are no special usage instructions for my [personal website](https://narrit
 
 ## Credits
 
-Author: Chelsea Mangold
+Author: CM
